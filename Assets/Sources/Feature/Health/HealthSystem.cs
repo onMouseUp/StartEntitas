@@ -12,13 +12,12 @@ public class HealthSystem : ReactiveSystem<GameEntity> {
     }
 
     protected override bool Filter(GameEntity entity) {
-        return entity.isHealth;
+        return entity.hasHealth;
     }
 
     protected override void Execute(List<GameEntity> entities) {
         foreach (var entity in entities) {
             // do stuff to the matched entities
-            
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Sources.Feature.Logging
+﻿namespace Sources.Services.Log
 {
     public interface ILogService
     {
